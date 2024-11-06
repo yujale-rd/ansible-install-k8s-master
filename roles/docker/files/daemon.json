@@ -1,0 +1,16 @@
+{
+  "registry-mirrors": [
+    "https://dockerpull.com",
+    "https://docker.anyhub.us.kg",
+    "https://dockerhub.jobcher.com",
+    "https://dockerhub.icu",
+    "https://docker.awsl9527.cn",
+    "https://781m1mod.mirror.aliyuncs.com"
+  ],
+  "insecure-registries": ["192.168.201.129"],
+  "log-driver": "json-file",
+  "log-opts": {
+    "max-size": "100m"
+  },
+  "storage-driver": "overlay2"
+}
